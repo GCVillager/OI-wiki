@@ -23,7 +23,7 @@ IDA\*为采用了迭代加深算法的 A\*算法。
 Procedure IDA_STAR(StartState)
 Begin
   PathLimit := H(StartState) - 1;
-  Succes := False;
+  Success := False;
   Repeat
     inc(PathLimit);
     StartState.g = 0;
